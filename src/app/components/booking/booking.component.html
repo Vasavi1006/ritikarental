@@ -1,0 +1,16 @@
+<table class="table table-bordered">
+<tr>
+ <th>ordered</th>  
+ <th>vehicleName</th> 
+ <th>vehicleprice</th> 
+ <th>Deliveryaddress</th> 
+ <th>Time</th> 
+</tr> 
+<tr *ngFor="let o of orders">
+<td>{{o.vehicleId}}</td>
+<td>{{o.vehicleprice}}</td>
+<td>{{o.vehicleName}}</td>
+<td>{{o.Address}}</td>
+<td>{{o.time}}</td>
+</tr>
+</table>

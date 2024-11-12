@@ -1,0 +1,17 @@
+.car{
+ background-image:url("https://t4.ftcdn.net/jpg/05/51/75/07/360_F_551750713_JdiH991rrrSFL5i7DAAYsL0Ua0riYpUO.jpg");
+ background-repeat:no-repeat;
+ background-size:1650px 800px;  
+}
+.container-fluid{
+height:700px;
+}
+.myform{
+background-color:rgba(red, green, blue, alpha);
+padding:20px;
+border-radius:10px;
+margin-top:150px;
+margin-left:100px;
+margin-bottom:100px;
+color:white
+}
